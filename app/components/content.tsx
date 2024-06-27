@@ -36,7 +36,7 @@ const Content: React.FC<ContentProps> = ({ assets }) => {
           <tbody>
             {assets &&
               assets.map((asset, key) => (
-                <tr key={key} className="py-2 items-center">
+                <tr key={key} className="py-2 items-center py-1">
                   <td className="h-16 w-64 flex gap-3 items-center">
                     <Image
                       src={`/${asset.image_path}`}
