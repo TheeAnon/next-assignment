@@ -39,7 +39,7 @@ const Content: React.FC<ContentProps> = ({ assets }) => {
                 <tr key={key} className="py-2 items-center">
                   <td className="h-16 w-64 flex gap-3 items-center">
                     <Image
-                      src={`/assets/${asset.image_path}`}
+                      src={`/${asset.image_path}`}
                       alt={asset.name}
                       width={64}
                       height={64}
